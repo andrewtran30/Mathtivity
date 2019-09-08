@@ -3,19 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773FAD74D5B457A2A1B437A4 /* Pods_Mathtivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDB6C0FF069EB4CA763185B /* Pods_Mathtivity.framework */; };
+		A40053422187FCBF0017B7B4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40053412187FCBF0017B7B4 /* Course.swift */; };
+		A40D2741218D0C400014CDF6 /* FeaturedCourseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D2740218D0C400014CDF6 /* FeaturedCourseViewCell.swift */; };
+		A41448D221973F9E00F87DEA /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41448D121973F9E00F87DEA /* TopicCollectionViewCell.swift */; };
+		A41D8C7321DBDC5100808BEA /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D8C7221DBDC5100808BEA /* SupportViewController.swift */; };
+		A421C6CF224088FF00449323 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421C6CE224088FF00449323 /* Extensions.swift */; };
+		A422D8DC2197D875005EE12D /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A422D8DB2197D875005EE12D /* TopicViewController.swift */; };
+		A423DA4B21AB1CC7001E1E69 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423DA4A21AB1CC7001E1E69 /* PracticeViewController.swift */; };
+		A423DA4D21AB1FBA001E1E69 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423DA4C21AB1FBA001E1E69 /* VideosViewController.swift */; };
+		A423DA5021AB6356001E1E69 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423DA4F21AB6356001E1E69 /* PlayVideoViewController.swift */; };
+		A423DA5221AB8B99001E1E69 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423DA5121AB8B98001E1E69 /* Video.swift */; };
+		A425424C21B476D50058A840 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425424B21B476D50058A840 /* Practice.swift */; };
+		A425424E21B499430058A840 /* PracticeItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425424D21B499430058A840 /* PracticeItemViewController.swift */; };
+		A429731A21FAC3AD0072AA90 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A429731921FAC3AD0072AA90 /* ChatMessageCell.swift */; };
 		A42A1F9321860D0500AE644B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A1F9221860D0500AE644B /* AppDelegate.swift */; };
 		A42A1F9521860D0500AE644B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A1F9421860D0500AE644B /* ViewController.swift */; };
 		A42A1F9821860D0500AE644B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42A1F9621860D0500AE644B /* Main.storyboard */; };
 		A42A1F9B21860D0500AE644B /* Mathtivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A42A1F9921860D0500AE644B /* Mathtivity.xcdatamodeld */; };
 		A42A1F9D21860D1300AE644B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42A1F9C21860D1300AE644B /* Assets.xcassets */; };
 		A42A1FA021860D1400AE644B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42A1F9E21860D1400AE644B /* LaunchScreen.storyboard */; };
+		A42A1FA82186304800AE644B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A1FA72186304800AE644B /* RegisterViewController.swift */; };
+		A42A1FAA218630E100AE644B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42A1FA9218630E100AE644B /* GoogleService-Info.plist */; };
+		A42A1FAC2186ABEE00AE644B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A1FAB2186ABEE00AE644B /* HomeViewController.swift */; };
+		A42C025C220F40A2004A0E89 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C025B220F40A2004A0E89 /* CreditsViewController.swift */; };
+		A42CD02822021BA200CCE255 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD02722021BA200CCE255 /* AboutViewController.swift */; };
+		A431A4E42196A6DE0016B002 /* Selected.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4E32196A6DE0016B002 /* Selected.swift */; };
+		A432D9BB21EC42A000CFF34F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A432D9BA21EC42A000CFF34F /* Message.swift */; };
+		A432FDF721F1824D0072FB0E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A432FDF621F1824D0072FB0E /* UserCell.swift */; };
+		A43A814721EA5EDE00589569 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A814621EA5EDE00589569 /* NewMessageController.swift */; };
+		A43A814921EA646700589569 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A814821EA646700589569 /* User.swift */; };
+		A43A814B21EAD87D00589569 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A814A21EAD87D00589569 /* LoginController+handlers.swift */; };
+		A43A814D21EB011100589569 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A814C21EB011100589569 /* ChatLogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FDB6C0FF069EB4CA763185B /* Pods_Mathtivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mathtivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		945690EF671172D27CD1CB6D /* Pods-Mathtivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mathtivity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mathtivity/Pods-Mathtivity.debug.xcconfig"; sourceTree = "<group>"; };
+		A40053412187FCBF0017B7B4 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A40D2740218D0C400014CDF6 /* FeaturedCourseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCourseViewCell.swift; sourceTree = "<group>"; };
+		A41448D121973F9E00F87DEA /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		A41D8C7221DBDC5100808BEA /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		A421C6CE224088FF00449323 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A422D8DB2197D875005EE12D /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		A423DA4A21AB1CC7001E1E69 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		A423DA4C21AB1FBA001E1E69 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		A423DA4F21AB6356001E1E69 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		A423DA5121AB8B98001E1E69 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		A425424B21B476D50058A840 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		A425424D21B499430058A840 /* PracticeItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeItemViewController.swift; sourceTree = "<group>"; };
+		A429731921FAC3AD0072AA90 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		A42A1F8F21860D0500AE644B /* Mathtivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathtivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42A1F9221860D0500AE644B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A42A1F9421860D0500AE644B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +65,19 @@
 		A42A1F9C21860D1300AE644B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42A1F9F21860D1400AE644B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42A1FA121860D1400AE644B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42A1FA72186304800AE644B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A42A1FA9218630E100AE644B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A42A1FAB2186ABEE00AE644B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A42C025B220F40A2004A0E89 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		A42CD02722021BA200CCE255 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = Mathtivity/HomeScreen/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		A431A4E32196A6DE0016B002 /* Selected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selected.swift; sourceTree = "<group>"; };
+		A432D9BA21EC42A000CFF34F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A432FDF621F1824D0072FB0E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		A43A814621EA5EDE00589569 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		A43A814821EA646700589569 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A43A814A21EAD87D00589569 /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		A43A814C21EB011100589569 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		E976587FDF328AD0182569F2 /* Pods-Mathtivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mathtivity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mathtivity/Pods-Mathtivity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773FAD74D5B457A2A1B437A4 /* Pods_Mathtivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A40053402187FC420017B7B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A40053412187FCBF0017B7B4 /* Course.swift */,
+				A431A4E32196A6DE0016B002 /* Selected.swift */,
+				A423DA5121AB8B98001E1E69 /* Video.swift */,
+				A425424B21B476D50058A840 /* Practice.swift */,
+				A43A814821EA646700589569 /* User.swift */,
+				A432D9BA21EC42A000CFF34F /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A40A54BC2197485F00C4F812 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A41448D121973F9E00F87DEA /* TopicCollectionViewCell.swift */,
+				A40D2740218D0C400014CDF6 /* FeaturedCourseViewCell.swift */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		A41B9EC421DE8A7C001046D9 /* SupportPage */ = {
+			isa = PBXGroup;
+			children = (
+				A41D8C7221DBDC5100808BEA /* SupportViewController.swift */,
+				A43A814621EA5EDE00589569 /* NewMessageController.swift */,
+				A43A814C21EB011100589569 /* ChatLogController.swift */,
+			);
+			path = SupportPage;
+			sourceTree = "<group>";
+		};
+		A420DA85218E0B8C00754A27 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A42CD02722021BA200CCE255 /* AboutViewController.swift */,
+				A425424D21B499430058A840 /* PracticeItemViewController.swift */,
+				A42A1F9421860D0500AE644B /* ViewController.swift */,
+				A42A1FAB2186ABEE00AE644B /* HomeViewController.swift */,
+				A42A1FA72186304800AE644B /* RegisterViewController.swift */,
+				A422D8DB2197D875005EE12D /* TopicViewController.swift */,
+				A423DA4A21AB1CC7001E1E69 /* PracticeViewController.swift */,
+				A423DA4C21AB1FBA001E1E69 /* VideosViewController.swift */,
+				A423DA4F21AB6356001E1E69 /* PlayVideoViewController.swift */,
+				A43A814A21EAD87D00589569 /* LoginController+handlers.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		A423DA4E21AB2421001E1E69 /* Python Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Python Videos";
+			sourceTree = "<group>";
+		};
 		A42A1F8621860D0500AE644B = {
 			isa = PBXGroup;
 			children = (
 				A42A1F9121860D0500AE644B /* Mathtivity */,
 				A42A1F9021860D0500AE644B /* Products */,
+				EF5BFF77F02B7C99EF21DD2B /* Pods */,
+				B12137C147F952F06543AB8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +169,49 @@
 		A42A1F9121860D0500AE644B /* Mathtivity */ = {
 			isa = PBXGroup;
 			children = (
-				A42A1F9221860D0500AE644B /* AppDelegate.swift */,
-				A42A1F9421860D0500AE644B /* ViewController.swift */,
+				A432FDF521F181EC0072FB0E /* View */,
+				A41B9EC421DE8A7C001046D9 /* SupportPage */,
+				A423DA4E21AB2421001E1E69 /* Python Videos */,
 				A42A1F9621860D0500AE644B /* Main.storyboard */,
+				A42C025B220F40A2004A0E89 /* CreditsViewController.swift */,
+				A42A1F9221860D0500AE644B /* AppDelegate.swift */,
+				A420DA85218E0B8C00754A27 /* HomeScreen */,
+				A40053402187FC420017B7B4 /* Model */,
+				A40A54BC2197485F00C4F812 /* Collection Cells */,
 				A42A1F9C21860D1300AE644B /* Assets.xcassets */,
-				A42A1F9E21860D1400AE644B /* LaunchScreen.storyboard */,
 				A42A1FA121860D1400AE644B /* Info.plist */,
+				A42A1F9E21860D1400AE644B /* LaunchScreen.storyboard */,
+				A42A1FA9218630E100AE644B /* GoogleService-Info.plist */,
 				A42A1F9921860D0500AE644B /* Mathtivity.xcdatamodeld */,
 			);
 			path = Mathtivity;
+			sourceTree = "<group>";
+		};
+		A432FDF521F181EC0072FB0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A432FDF621F1824D0072FB0E /* UserCell.swift */,
+				A429731921FAC3AD0072AA90 /* ChatMessageCell.swift */,
+				A421C6CE224088FF00449323 /* Extensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12137C147F952F06543AB8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FDB6C0FF069EB4CA763185B /* Pods_Mathtivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5BFF77F02B7C99EF21DD2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945690EF671172D27CD1CB6D /* Pods-Mathtivity.debug.xcconfig */,
+				E976587FDF328AD0182569F2 /* Pods-Mathtivity.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A42A1FA421860D1400AE644B /* Build configuration list for PBXNativeTarget "Mathtivity" */;
 			buildPhases = (
+				9D19674E18EA379323BFC254 /* [CP] Check Pods Manifest.lock */,
 				A42A1F8B21860D0500AE644B /* Sources */,
 				A42A1F8C21860D0500AE644B /* Frameworks */,
 				A42A1F8D21860D0500AE644B /* Resources */,
+				9D963DC1CE4B26AEA9A9DC77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +252,7 @@
 				};
 			};
 			buildConfigurationList = A42A1F8A21860D0500AE644B /* Build configuration list for PBXProject "Mathtivity" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42A1FA021860D1400AE644B /* LaunchScreen.storyboard in Resources */,
+				A42A1FAA218630E100AE644B /* GoogleService-Info.plist in Resources */,
 				A42A1F9D21860D1300AE644B /* Assets.xcassets in Resources */,
 				A42A1F9821860D0500AE644B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +283,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D19674E18EA379323BFC254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mathtivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D963DC1CE4B26AEA9A9DC77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mathtivity/Pods-Mathtivity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mathtivity/Pods-Mathtivity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A42A1F8B21860D0500AE644B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A423DA4B21AB1CC7001E1E69 /* PracticeViewController.swift in Sources */,
+				A421C6CF224088FF00449323 /* Extensions.swift in Sources */,
+				A40053422187FCBF0017B7B4 /* Course.swift in Sources */,
+				A41D8C7321DBDC5100808BEA /* SupportViewController.swift in Sources */,
+				A43A814D21EB011100589569 /* ChatLogController.swift in Sources */,
+				A42A1FAC2186ABEE00AE644B /* HomeViewController.swift in Sources */,
+				A425424C21B476D50058A840 /* Practice.swift in Sources */,
 				A42A1F9521860D0500AE644B /* ViewController.swift in Sources */,
+				A41448D221973F9E00F87DEA /* TopicCollectionViewCell.swift in Sources */,
+				A423DA5221AB8B99001E1E69 /* Video.swift in Sources */,
+				A43A814721EA5EDE00589569 /* NewMessageController.swift in Sources */,
 				A42A1F9321860D0500AE644B /* AppDelegate.swift in Sources */,
+				A432FDF721F1824D0072FB0E /* UserCell.swift in Sources */,
+				A425424E21B499430058A840 /* PracticeItemViewController.swift in Sources */,
+				A42C025C220F40A2004A0E89 /* CreditsViewController.swift in Sources */,
+				A423DA4D21AB1FBA001E1E69 /* VideosViewController.swift in Sources */,
 				A42A1F9B21860D0500AE644B /* Mathtivity.xcdatamodeld in Sources */,
+				A42A1FA82186304800AE644B /* RegisterViewController.swift in Sources */,
+				A43A814B21EAD87D00589569 /* LoginController+handlers.swift in Sources */,
+				A431A4E42196A6DE0016B002 /* Selected.swift in Sources */,
+				A42CD02822021BA200CCE255 /* AboutViewController.swift in Sources */,
+				A432D9BB21EC42A000CFF34F /* Message.swift in Sources */,
+				A422D8DC2197D875005EE12D /* TopicViewController.swift in Sources */,
+				A423DA5021AB6356001E1E69 /* PlayVideoViewController.swift in Sources */,
+				A429731A21FAC3AD0072AA90 /* ChatMessageCell.swift in Sources */,
+				A40D2741218D0C400014CDF6 /* FeaturedCourseViewCell.swift in Sources */,
+				A43A814921EA646700589569 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,37 +513,45 @@
 		};
 		A42A1FA521860D1400AE644B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945690EF671172D27CD1CB6D /* Pods-Mathtivity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYU55G963J;
 				INFOPLIST_FILE = Mathtivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtran.Mathtivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A42A1FA621860D1400AE644B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E976587FDF328AD0182569F2 /* Pods-Mathtivity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYU55G963J;
 				INFOPLIST_FILE = Mathtivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtran.Mathtivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

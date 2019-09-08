@@ -8,15 +8,28 @@
 
 import UIKit
 import CoreData
-
+import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Override point for c ustomization after application launch.
+        FirebaseApp.configure()
+//        let auth = Auth.auth()
+//        auth.addStateDidChangeListener { [weak self] (_, user) in
+//            if let user = user {
+//                print("THE USER IS LOGGED IN")
+//                let homeVC = HomeViewController()
+//
+//            } else {
+//
+//            }
+//        }
+
         return true
     }
 

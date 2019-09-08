@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>269147627209-umb516ed7rg1ohbbivau3b9h13uhbnis.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.269147627209-umb516ed7rg1ohbbivau3b9h13uhbnis</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdM9S6qfbQpKlZvEu2EQhWJf2fHCqX6EQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>269147627209</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.andrewtran.Mathtivity</string>
+	<key>PROJECT_ID</key>
+	<string>mathtivity-208421</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mathtivity-208421.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:269147627209:ios:3e932ab6ab382cca</string>
+	<key>DATABASE_URL</key>
+	<string>https://mathtivity-208421.firebaseio.com</string>
+</dict>
+</plist>
